@@ -9,7 +9,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,6 +17,28 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.background-twilight {
+  background-image: linear-gradient(
+          to top,
+          #F1C086,
+          #E7B4A4,
+          #CCACAB,
+          #AFA3B3,
+          #9299BB,
+          #7590C3,
+          #5E89C9,
+          #547ABB,
+          #4B6CAD,
+          #415D9F,
+          #374F91,
+          #2D3F82,
+          #233073,
+          #192064,
+          #0F1155,
+          #040146);
+}
+
 
 .App-link {
   color: #61dafb;
