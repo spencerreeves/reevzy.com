@@ -1,21 +1,17 @@
-.App {
+
+.center {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .background-twilight {
@@ -40,8 +36,8 @@
 }
 
 
-.App-link {
-  color: #61dafb;
+.padding-40 {
+  padding: 40px;
 }
 
 @keyframes App-logo-spin {

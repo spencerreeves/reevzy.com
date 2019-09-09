@@ -1,0 +1,50 @@
+/****************************************
+** General CSS
+*****************************************/
+
+.homeText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.top-30 {
+  margin-top: 30vh;
+}
+
+/****************************************
+** Text CSS
+*****************************************/
+
+/* For mobile phones: */
+.HomeTitle {
+  font-size: 48px;
+}
+
+.HomeSubTitle {
+  font-size: 18px;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .HomeTitle {
+    font-size: 64px;
+  }
+
+  .HomeSubTitle {
+    font-size: 24px;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .HomeTitle {
+    font-size: 96px;
+  }
+
+  .HomeSubTitle {
+    font-size: 36px;
+  }
+}
