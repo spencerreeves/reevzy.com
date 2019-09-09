@@ -3,7 +3,7 @@ import './Home.css';
 
 export const Title = () => {
   return (
-    <div className='top-30'>
+    <div className='top-25'>
       <h1 className=" HomeTitle homeText">REEVES</h1>
     </div>
   );
@@ -35,10 +35,21 @@ export const SubTitle = () => {
   );
 };
 
-export const Header = () => {
+export const Menu = () => {
   return (
-    <div>
-
+    <div className="menu">
+      <button className="menuButton">
+        Projects
+      </button>
+      <button className="menuButton">
+        Blog
+      </button>
+      <button className="menuButton">
+        About
+      </button>
+      <div className="menuIcon">
+        <i className="fas fa-stream fa-2x"/>
+      </div>
     </div>
   );
 };
