@@ -6,6 +6,7 @@ import {ScrollBar} from "./ScrollBar";
 function App() {
   return (
     <div id="app" className="background-twilight full-screen">
+      <div className="underConstruction">Under Renovation</div>
       <div id="body">
         <Menu/>
         <ScrollBar/>
