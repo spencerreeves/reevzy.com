@@ -5,6 +5,7 @@ import {Title, SubTitle, Header} from './Home.js';
 function App() {
   return (
     <div id="app" className="background-twilight full-screen">
+      <div className="underConstruction">Under Renovation</div>
       <div id="body" className="padding-40">
         <Header/>
         <Title/>
