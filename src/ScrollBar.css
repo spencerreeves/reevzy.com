@@ -1,0 +1,29 @@
+
+.ScrollBar {
+  position: absolute;
+  margin-left: 40px;
+  width: 5px;
+  top: 20%;
+  bottom: 20%;
+  background : rgba(196, 196, 196, .5);
+}
+
+.ScrollSection {
+  width: 5px;
+  height: 25%;
+}
+
+.ScrollBarIndicator {
+  width: 5px;
+  height: 25%;
+  background: white;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ScrollSection:hover {
+  background: rgba(229, 229, 229, .5);
+}
