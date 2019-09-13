@@ -5,7 +5,7 @@ import {ScrollBar} from "./ScrollBar";
 
 function App() {
   return (
-    <div id="app" className="background-twilight full-screen">
+    <div id="app" className="background-twilight full-screen" onWheel={console.log}>
       <div className="underConstruction">Under Renovation</div>
       <div id="body">
         <Menu/>

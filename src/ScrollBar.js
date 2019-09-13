@@ -2,7 +2,6 @@ import React, { useReducer}from 'react';
 import './ScrollBar.css';
 
 const heightReducer= (state, action) => {
-  console.log(state, action);
   if (action && action < 4) {
     return {top: (action * 25).toString() + '%'};
   } else {
