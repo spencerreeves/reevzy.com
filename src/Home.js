@@ -1,6 +1,7 @@
 import React, { useState, useEffect}from 'react';
 import './Home.css';
 
+
 export const Title = () => {
   return (
     <div className='top-25'>
@@ -35,23 +36,5 @@ export const SubTitle = () => {
   );
 };
 
-export const Menu = () => {
-  return (
-    <div className="menu">
-      <button className="menuButton">
-        Projects
-      </button>
-      <button className="menuButton">
-        Blog
-      </button>
-      <button className="menuButton">
-        About
-      </button>
-      <div className="menuIcon">
-        <i className="fas fa-stream fa-2x"/>
-      </div>
-    </div>
-  );
-};
 
 

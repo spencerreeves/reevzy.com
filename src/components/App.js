@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Title, SubTitle, Menu} from './Home.js';
-import {ScrollBar} from "./ScrollBar";
+import Header from '../containers/header';
+import {Title, SubTitle} from '../Home.js';
+import ScrollBar from '../containers/scroll';
 
 function App() {
   return (
     <div id="app" className="background-twilight full-screen" onWheel={console.log}>
       <div className="underConstruction">Under Renovation</div>
       <div id="body">
-        <Menu/>
+        <Header/>
         <ScrollBar/>
         <Title/>
         <SubTitle />
